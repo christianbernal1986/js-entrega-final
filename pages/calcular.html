@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>calcular | credito</title>
+    <!--sweet link-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/sweetalert2@11.10.7/dist/sweetalert2.min.css">
+     <!--link css-->
+     <link rel="stylesheet" href="../css/main.css">
+</head>
+<body>
+
+    <header>
+        <div>
+            <h1>Bienvenidos a Creditos Ya</h1>
+            <h2>Simule aqui su credito </h2>
+        </div>
+       <div> <p  class="boton-form"><strong>2.5% de interes por cuota</strong></p></div>
+    </header>
+    <section>
+
+        <div><p class="res"><strong> Calcula tu credito</strong></p></div>
+
+        <div>
+
+            <strong><p class="res" id="respuesta"><!--contenido dinamico--></p></strong>
+            
+        </div>
+
+        <div>
+            <form action="" id="formCal"> 
+                    
+                <label for="monto">Ingrese monto</label>
+                <input  class="boton-form" type="number" name="monto" id="monto" placeholder="monto">
+            
+            
+                <label for="N° de cuotas">N° de cuotas</label>
+                <input  class="boton-form" type="number" name="N° de cuotas" id="cuotas" placeholder="cuotas">
+            
+                <input class="boton-form"  type="submit" value="Calcular" id="calcular">
+                
+            </form>
+        </div>
+
+        
+        
+            <form action="" id="salir">
+                <input class="boton-salir" type="submit" value="salir">
+            </form>
+        
+
+
+       <!--<div>
+        <strong> <a id="salir"  href="../index.html">Salir</a></strong>
+        </div>-->
+
+    </section>
+    <!--swett link-->
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.10.7/dist/sweetalert2.all.min.js"></script>
+      <!--link js-->
+   <script src="../js/calcular.js"></script>
+
+</body>
+</html>
